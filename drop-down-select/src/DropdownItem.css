@@ -1,0 +1,20 @@
+.dropdown-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: none;
+  gap: 50px 10px;
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+  background-color: pink;
+}
+.dropdown-checkbox {
+  flex-grow: 1;
+  max-width: 10px;
+}
+
+.dropdown-text {
+  flex-grow: 4;
+}

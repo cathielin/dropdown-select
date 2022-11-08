@@ -1,0 +1,59 @@
+.dropdown-container {
+  position: relative;
+  padding: 0;
+  border: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  max-height: 200px;
+  padding: 3px;
+  overflow: auto;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.dropdown-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 5px;
+  border: none;
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+}
+
+.dropdown-checkbox {
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.dropdown-text {
+  flex-grow: 4;
+}
+
+.dropdown-main-view {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.dropdown-selected-choice {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+}
